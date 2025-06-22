@@ -2,7 +2,8 @@ Reproducible Project Skeleton by Script (Once while creation of project)
 
 ```
 python setup_project_skeleton.py
-python setup_project_skeleton.py -f     # WARNING: To skip prompts and overwrite all files
+python setup_project_skeleton.py -f                         # WARNING: To skip prompts and overwrite all files
+python setup_project_skeleton.py --name networksecurity -f  # Specify Project Folder Name
 ```
 
 Create & Activate Virtual Environment & Install Deps

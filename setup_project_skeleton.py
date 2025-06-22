@@ -26,7 +26,6 @@ FILE_STRUCTURE = [
     "README.md",
     "Dockerfile",
     "pyproject.toml",
-    "requirements.txt",
     ".github/workflows/main.yml",
     "src/project_name/__init__.py"
 ]
