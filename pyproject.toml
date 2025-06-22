@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mlops-cybersec-e2e"
+version = "0.1.2"
+description = "End-to-End MLOps project for building a network security system with ETL pipelines and CI/CD deployment"
+authors = [{ name = "Susamay Kumbhakar", email = "you@example.com" }]
+readme = "README.md"
+requires-python = ">=3.12"
+license = { text = "MIT" }
+
+dependencies = [
+    "numpy",
+    "pandas",
+    "scikit-learn",
+    "flask",
+    "joblib",
+    "requests",
+    "matplotlib",
+    "seaborn"
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
