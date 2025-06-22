@@ -1,4 +1,11 @@
-Create & Activate Virtual Environment
+Reproducible Project Skeleton by Script (Once while creation of project)
+
+```
+python setup_project_skeleton.py
+python setup_project_skeleton.py -f     # WARNING: To skip prompts and overwrite all files
+```
+
+Create & Activate Virtual Environment & Install Deps
 
 ```
 python -m venv .venv
@@ -9,9 +16,3 @@ pip install -e .                        # Install the requirements
 pip freeze > requirements.txt           # Generate if needed
 ```
 
-Reproducible Project Skeleton by Script (Once while creation of project)
-
-```
-python setup_project_skeleton.py
-python setup_project_skeleton.py -f     # WARNING: To skip prompts and overwrite all files
-```
