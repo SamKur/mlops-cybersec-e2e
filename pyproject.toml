@@ -19,7 +19,10 @@ dependencies = [
     "joblib",
     "requests",
     "matplotlib",
-    "seaborn"
+    "seaborn",
+    "pymongo[srv]==3.12",
+    "python-dotenv",
+    
 ]
 
 [tool.setuptools]
