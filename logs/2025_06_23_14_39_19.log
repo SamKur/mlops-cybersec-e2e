@@ -1,0 +1,1 @@
+[ 2025-06-23 14:39:39,227 ] 18 networksecurity.utils.exception - ERROR - Error occurred in script [d:\Documents\Coding\DS_MLOps_Krish\Projekts\mlops-cybersec-e2e\push_data_csv2mongo.py] at line [29] with message: The DNS operation timed out after 20.00415349006653 seconds

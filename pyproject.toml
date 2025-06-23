@@ -22,7 +22,7 @@ dependencies = [
     "seaborn",
     "pymongo[srv]==3.12",
     "python-dotenv",
-    
+    "certifi",
 ]
 
 [tool.setuptools]
