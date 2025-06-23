@@ -1,0 +1,2 @@
+[ 2025-06-23 07:58:05,655 ] 28 __main__ - INFO - Entered try block
+[ 2025-06-23 07:58:05,655 ] 18 __main__ - ERROR - Error occurred in script [D:\Documents\Coding\DS_MLOps_Krish\Projekts\mlops-cybersec-e2e\src\networksecurity\utils\exception.py] at line [29] with message: division by zero

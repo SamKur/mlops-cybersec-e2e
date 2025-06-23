@@ -1,0 +1,22 @@
+mlops-cybersec-e2e/
+├── .github/                      # CI/CD workflows
+├── artifacts/                    # Trained models, serialized outputs
+├── configs/                      # YAML/JSON config files
+├── data/                         # Input data
+├── logs/                         # Log files
+├── notebooks/                    # EDA, experimentation
+├── scripts/                      # CLI scripts, helpers
+├── tests/                        # Unit/integration tests
+├── Dockerfile
+├── pyproject.toml                # Project config and dependencies
+├── README.md
+├── setup_project_skeleton.py
+└── src/
+    └── networksecurity/
+        ├── __init__.py           # Makes it a package
+        ├── config/               # Optional: config loading logic (Hydra/argparse)
+        ├── data/                 # Data loaders, transformers
+        ├── models/               # ML model classes, wrappers
+        ├── pipelines/            # Training, inference, deployment
+        ├── utils/                # Custom logger and other utils
+        ├── main.py               # Entry point
